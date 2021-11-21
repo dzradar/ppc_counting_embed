@@ -1,0 +1,17 @@
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_udp\adt3102_udp.c
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_uart\adt3102_uart.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_comlib\uart_ctype_map.h
+.\objects\adt3102_udp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_spi\adt3102_spi.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_comlib\spi_ctype_map.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_udp\adt3102_udp.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_udp\adt3102_udp.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_comlib\gpio_ctype_map.h
+.\objects\adt3102_udp.o: ..\src\adt3102.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_udp\wizchip_conf.h
+.\objects\adt3102_udp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_udp\w5500.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_udp\wizchip_conf.h
+.\objects\adt3102_udp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_udp\socket.h

@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\objects\arm_bitreversal2.o"
+".\objects\startup_cmsdk_cm3.o"
+".\objects\main.o"
+".\objects\adt3102_inthandler.o"
+"..\src\adt3102_hare_people_counting.lib"
+".\objects\adt3102_adc.o"
+".\objects\adt3102_dma.o"
+".\objects\adt3102_dsp.o"
+".\objects\adt3102_gpio.o"
+".\objects\adt3102_i2c.o"
+".\objects\adt3102_pmu.o"
+".\objects\adt3102_rtc.o"
+".\objects\adt3102_spi.o"
+".\objects\adt3102_system.o"
+".\objects\adt3102_timer.o"
+".\objects\adt3102_trng.o"
+".\objects\adt3102_uart.o"
+".\objects\adt3102_watchdog.o"
+".\objects\adt3102_memscheduling.o"
+".\objects\adt3102_sagc.o"
+".\objects\tinyframe.o"
+".\objects\adt3102_utilities.o"
+".\objects\adt3102_adc_sample.o"
+--library_type=microlib --strict --scatter ".\Objects\adt3102_hare_people_counting.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Objects\adt3102_hare_people_counting.map" -o .\Objects\adt3102_hare_people_counting.axf

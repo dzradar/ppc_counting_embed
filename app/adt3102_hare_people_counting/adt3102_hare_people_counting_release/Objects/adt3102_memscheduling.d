@@ -1,0 +1,9 @@
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_memscheduling\adt3102_memscheduling.c
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_memscheduling.o: ..\src\adt3102.h
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_memscheduling\adt3102_memscheduling.h
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_dma\adt3102_dma.h
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_comlib\dsp_ctype_map.h
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_comlib\rfc_ctype_map.h
+.\objects\adt3102_memscheduling.o: ..\..\..\lib\adt3102_comlib\dma_ctype_map.h

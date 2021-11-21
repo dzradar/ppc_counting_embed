@@ -1,0 +1,17 @@
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_tx\adt3102_tx.c
+.\objects\adt3102_tx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\adt3102_tx.o: ..\src\adt3102.h
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_system\adt3102_system.h
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_tx\adt3102_tx.h
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_comlib\pmu_ctype_map.h
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_comlib\rfc_ctype_map.h
+.\objects\adt3102_tx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\adt3102_tx.o: ..\..\..\lib\adt3102_comlib\arm_math.h
+.\objects\adt3102_tx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adt3102_tx.o: ..\..\..\cmsis\CMSIS\Include\core_cm3.h
+.\objects\adt3102_tx.o: ..\..\..\cmsis\CMSIS\Include\core_cmInstr.h
+.\objects\adt3102_tx.o: ..\..\..\cmsis\CMSIS\Include\core_cmFunc.h
+.\objects\adt3102_tx.o: ..\..\..\cmsis\CMSIS\Include\core_cm3.h
+.\objects\adt3102_tx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

@@ -1,0 +1,9 @@
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_rtc\adt3102_rtc.c
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_rtc\adt3102_rtc.h
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_comlib\rtc_ctype_map.h
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_comlib\pmu_ctype_map.h
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_comlib\rfc_ctype_map.h
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_system\adt3102_system.h
+.\objects\adt3102_rtc.o: ..\src\adt3102.h
+.\objects\adt3102_rtc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h

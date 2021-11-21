@@ -1,0 +1,11 @@
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.c
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_adc.o: ..\src\adt3102.h
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\adt3102_adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_system\adt3102_system.h
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_dma\adt3102_dma.h
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_comlib\dsp_ctype_map.h
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_comlib\rfc_ctype_map.h
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_comlib\dma_ctype_map.h
+.\objects\adt3102_adc.o: ..\..\..\lib\adt3102_comlib\pmu_ctype_map.h

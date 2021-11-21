@@ -1,0 +1,14 @@
+.\objects\static_remove.o: ..\..\..\lib\adt3102_service_layer\adt3102_static_remove\static_remove.c
+.\objects\static_remove.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\static_remove.o: ..\..\..\lib\adt3102_comlib\arm_math.h
+.\objects\static_remove.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\static_remove.o: ..\..\..\cmsis\CMSIS\Include\core_cm3.h
+.\objects\static_remove.o: ..\..\..\cmsis\CMSIS\Include\core_cmInstr.h
+.\objects\static_remove.o: ..\..\..\cmsis\CMSIS\Include\core_cmFunc.h
+.\objects\static_remove.o: ..\..\..\cmsis\CMSIS\Include\core_cm3.h
+.\objects\static_remove.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\static_remove.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\static_remove.o: ..\..\..\lib\adt3102_service_layer\adt3102_static_remove\static_remove.h
+.\objects\static_remove.o: ..\src\adt3102.h
+.\objects\static_remove.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\static_remove.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h

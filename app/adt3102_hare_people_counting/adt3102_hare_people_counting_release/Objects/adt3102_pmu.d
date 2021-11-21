@@ -1,0 +1,12 @@
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_pmu\adt3102_pmu.c
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_pmu.o: ..\src\adt3102.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_pmu\adt3102_pmu.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_gpio\adt3102_gpio.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_tx\adt3102_tx.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_rx\adt3102_rx.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_system\adt3102_system.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_comlib\pmu_ctype_map.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_comlib\rfc_ctype_map.h
+.\objects\adt3102_pmu.o: ..\..\..\lib\adt3102_comlib\gpio_ctype_map.h

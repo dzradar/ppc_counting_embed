@@ -1,0 +1,11 @@
+.\objects\adt3102_sagc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_sagc\adt3102_sagc.c
+.\objects\adt3102_sagc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\adt3102_sagc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\adt3102_sagc.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_sagc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_sagc\adt3102_sagc.h
+.\objects\adt3102_sagc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_system\adt3102_system.h
+.\objects\adt3102_sagc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_uart\adt3102_uart.h
+.\objects\adt3102_sagc.o: ..\..\..\lib\adt3102_comlib\uart_ctype_map.h
+.\objects\adt3102_sagc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\adt3102_sagc.o: ..\src\adt3102.h
+.\objects\adt3102_sagc.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h

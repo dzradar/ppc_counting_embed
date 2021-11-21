@@ -1,0 +1,11 @@
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_dsp\adt3102_dsp.c
+.\objects\adt3102_dsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\adt3102_dsp.o: ..\src\adt3102.h
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\adt3102_dsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_dsp\adt3102_dsp.h
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_dma\adt3102_dma.h
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_gpio\adt3102_gpio.h
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_comlib\dsp_ctype_map.h
+.\objects\adt3102_dsp.o: ..\..\..\lib\adt3102_comlib\dma_ctype_map.h

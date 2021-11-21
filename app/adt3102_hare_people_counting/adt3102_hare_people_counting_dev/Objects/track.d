@@ -1,0 +1,14 @@
+.\objects\track.o: ..\src\track.c
+.\objects\track.o: ..\src\track.h
+.\objects\track.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\track.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\track.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\track.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\track.o: ..\src\proc_counting.h
+.\objects\track.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\track.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_uart\adt3102_uart.h
+.\objects\track.o: ..\..\..\lib\adt3102_comlib\uart_ctype_map.h
+.\objects\track.o: ..\src\adt3102.h
+.\objects\track.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\track.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\track.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

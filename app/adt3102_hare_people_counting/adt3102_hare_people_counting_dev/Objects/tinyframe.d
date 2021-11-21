@@ -1,0 +1,14 @@
+.\objects\tinyframe.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_tinyframe\TinyFrame.c
+.\objects\tinyframe.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_tinyframe\TinyFrame.h
+.\objects\tinyframe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tinyframe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\tinyframe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\tinyframe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tinyframe.o: ..\..\..\lib\adt3102_comlib\adt3102_type_define.h
+.\objects\tinyframe.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_tinyframe\TF_Config.h
+.\objects\tinyframe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\tinyframe.o: ..\src\adt3102.h
+.\objects\tinyframe.o: ..\..\..\lib\adt3102_hardwarelib\adt3102_adc\adt3102_adc.h
+.\objects\tinyframe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\tinyframe.o: ..\..\..\lib\adt3102_comlib\uart_ctype_map.h
+.\objects\tinyframe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
