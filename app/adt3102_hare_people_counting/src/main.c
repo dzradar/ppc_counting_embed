@@ -103,7 +103,7 @@ int main(void)
 //    OBJ_PEAKSINGLE_TypeDef obj;	
 //   uint16 y,x;
 //    int16 qPeakCh0,iPeakCh0,qPeakCh1,iPeakCh1;	
-    uint32 timePrint;
+    //uint32 timePrint;
 //    PHASE_TypeDef phaseResult; 
     uint32 sagcTarget;     
 //    multTargetInfo myMultTargetInfo;
@@ -196,11 +196,12 @@ int main(void)
         #if FRAME_LOWPOWER
             lowPowerSwitchPll(1,1);
             lowPowerSwitchFast(g_rx0En, g_rx1En, g_tx0En, g_tx1En, g_tiaHpf,g_rcHpf,g_pgaHpf);                
-			//rfPhaseShiftLUT(g_phaseShftLut0, g_phaseShftLut1);
+			rfPhaseShiftLUT(g_phaseShftLut0, g_phaseShftLut1);
+            delayUs(100, HIGH_CLOCK);
         #endif
 			//frame rate test
-        timePrint=(uint32)(10000000-Timer0->VALUE/125);
-        printfDebug("Frame time %d \r\n", timePrint);
+        //timePrint=(uint32)(10000000-Timer0->VALUE/125);
+        //printfDebug("Frame time %d \r\n", timePrint);
         timerOff(Timer0);
         timerInit(Timer0,(float)10000000,HIGH_CLOCK);
         if (PA1_ONLY==1)
@@ -299,42 +300,6 @@ int main(void)
         //staticRemove(RNG_FFT_CH1_ODD_ADDR ,SAMPLE_POINT,RANGE_MAX,CHIRP_NUM, CHIRP_NUM2_LOG2); 
         //staticRemove(RNG_FFT_CH1_EVEN_ADDR,SAMPLE_POINT,RANGE_MAX,CHIRP_NUM, CHIRP_NUM2_LOG2);
         
-        #if BG_REMOVAL_ENABLE
-        if (initial_flag == 1)
-        {
-            initial_flag++;
-            // initial dc removal data
-            for(int i= 0; i<RANGE_MAX; i++)
-            {
-                *((int32 *)(BG_REMOVAL_CH1_ADD+ i*4)) = *((int32 *)(RNG_FFT_CH0_ODD_ADDR  + i*4));
-                *((int32 *)(BG_REMOVAL_CH2_ADD+ i*4)) = *((int32 *)(RNG_FFT_CH0_EVEN_ADDR  + i*4));
-                *((int32 *)(BG_REMOVAL_CH3_ADD+ i*4)) = *((int32 *)(RNG_FFT_CH1_ODD_ADDR  + i*4));
-                *((int32 *)(BG_REMOVAL_CH4_ADD+ i*4)) = *((int32 *)(RNG_FFT_CH1_EVEN_ADDR  + i*4));
-            }
-        }
-        else if (initial_flag < bg_estimate_time)
-        {
-            // 10s big coeff
-            initial_flag++;
-            iqcoef = 0.3f;
-        }
-        else if (initial_flag == bg_estimate_time)
-        {
-            // small coeff
-            initial_flag++;
-            iqcoef = 0.05f;
-        }
-        else
-        {
-            update_flag = 0;
-            iqcoef = 0.05f;
-        }
-        background_removal(RNG_FFT_CH0_ODD_ADDR , BG_REMOVAL_CH1_ADD, SAMPLE_POINT,SAMPLE_POINT, NFFT_VEL,LOG2_NFFT_VEL, iqcoef, update_flag);
-        background_removal(RNG_FFT_CH0_EVEN_ADDR, BG_REMOVAL_CH2_ADD, SAMPLE_POINT,SAMPLE_POINT, NFFT_VEL,LOG2_NFFT_VEL, iqcoef, update_flag);
-        background_removal(RNG_FFT_CH1_ODD_ADDR , BG_REMOVAL_CH3_ADD, SAMPLE_POINT,SAMPLE_POINT, NFFT_VEL,LOG2_NFFT_VEL, iqcoef, update_flag);
-        background_removal(RNG_FFT_CH1_EVEN_ADDR, BG_REMOVAL_CH4_ADD, SAMPLE_POINT,SAMPLE_POINT, NFFT_VEL,LOG2_NFFT_VEL, iqcoef, update_flag);
-        #endif
-        
         
         velocityFftProcess(CHIRP_NUM2, RANGE_MAX, RNG_FFT_CH0_ODD_ADDR ,DOP_FFT_CH0_ODD_ADDR , 4*SAMPLE_POINT, 4);
         velocityFftProcess(CHIRP_NUM2, RANGE_MAX, RNG_FFT_CH0_EVEN_ADDR,DOP_FFT_CH0_EVEN_ADDR, 4*SAMPLE_POINT, 4);
@@ -428,7 +393,7 @@ int main(void)
             powerThdNoCfar=round(powerThd*pow(10,(curTiaGain*6+curVgaGain*2)/10)); 
                  
 			procCounting(0, 0, powerThdNoCfar);  //NOTE:  static tgts are removed
-        
+        /*
         // copy to txframe buffer 
         target_list.Ntargets = 0;  
         target_list.framenumber = work_times;        
@@ -458,7 +423,7 @@ int main(void)
             // data length : 9 bytes TF + 16 header + num Points * 6 float  * 4 bytes + 2 CRC
             // example: 1 target output 9+16+16+2 = 43
             tinyFramefTx(0xFF02, (uint8*)(&target_list), (24*target_list.Ntargets+16));
-        }
+        }*/
         // ------------
         // tracking
         track_step();

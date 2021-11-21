@@ -60,7 +60,7 @@
 #define FRAME_PERIOD      150//us
 #define SAGC_EN           1
 #define TF_ENABLE         0
-#define FRAME_LOWPOWER    0// 1
+#define FRAME_LOWPOWER    1  // low power mode
 #define CHIRP_LOWPOWER    0
 #define PRINT_DEBUG_EN    0
 #define BG_REMOVAL_ENABLE 0

@@ -351,12 +351,12 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M3 --
 apcs=interwork --depend=.\objects\startup_cmsdk_cm3.d -o.\objects\startup_cmsdk
-_cm3.o -IC:\work\download\andar\adt3102_project_embed_peng\app\adt3102_hare_peo
-ple_counting\adt3102_hare_people_counting_dev\RTE -IC:\Keil_v5\ARM\PACK\ARM\CMS
-IS\4.3.0\Device\ARM\ARMCM3\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="
-__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION S
-ETA 515" --predefine="ARMCM3 SETA 1" --list=.\objects\startup_cmsdk_cm3.lst ..\
-..\..\cmsis\Device\ARM\CMSDK_CM3\Source\ARM\startup_CMSDK_CM3.s
+_cm3.o -IC:\work\workspace\rep\ppc_counting_embed\app\adt3102_hare_people_count
+ing\adt3102_hare_people_counting_dev\RTE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\
+Device\ARM\ARMCM3\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__EVAL SE
+TA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 515" 
+--predefine="ARMCM3 SETA 1" --list=.\objects\startup_cmsdk_cm3.lst ..\..\..\cms
+is\Device\ARM\CMSDK_CM3\Source\ARM\startup_CMSDK_CM3.s
 
 
 
